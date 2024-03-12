@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebQlns.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#">Logo</a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="QLNV.aspx">NHAN VIEN</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="QLPB.aspx">PHONG BAN</a>
+    </li>
+    
+  </ul>
+</nav>
+
+        <div style="min-height:300px">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="bg-info text-center pt-3 pb-3">
+            Thiet ke boi: Nguyen Bui Quoc Tan 
+        </div>
+    </form>
+</body>
+</html>
