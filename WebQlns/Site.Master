@@ -32,7 +32,8 @@
             </asp:ContentPlaceHolder>
         </div>
         <div class="bg-info text-center pt-3 pb-3">
-            Thiet ke boi: Nguyen Bui Quoc Tan 
+            Thiet ke boi: Ha Tuan Anh
+
         </div>
     </form>
 </body>
